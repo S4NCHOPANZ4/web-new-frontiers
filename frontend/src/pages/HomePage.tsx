@@ -1,5 +1,5 @@
 import theme from '../colorPalette.js';
-import GeneralNavbar from '../components/GeneralNavbar';
+import GeneralNavbar from '../components/Navbars/GeneralNavbar.js';
 
 const HomePage = () => {
 

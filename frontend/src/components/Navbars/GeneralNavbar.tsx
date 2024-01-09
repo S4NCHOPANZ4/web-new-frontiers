@@ -1,5 +1,5 @@
-import GeneralSearchInput from "./Inputs/GeneralSearchInput"
-import ProfileSignUp from "./Inputs/Profile-SignUp"
+import GeneralSearchInput from "../Inputs/GeneralSearchInput"
+import ProfileSignUp from "../Inputs/Profile-SignUp"
 
 
 const GeneralNavbar = () => {
