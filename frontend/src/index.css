@@ -1,0 +1,43 @@
+*{
+  font-family: 'Raleway', sans-serif;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.noUserSelect{
+  user-select: none;
+}
+
+.scaleElement{
+  transition: transform 0.3s ease-in-out;
+}
+.scaleElement:hover{
+  transform: scale(1.01);
+
+}
+
+/* Background lineargradient */
+.linearGradient_ver1{
+  background: rgb(68,205,207);
+background: linear-gradient(332deg, rgba(68,205,207,1) 0%, rgba(136,85,217,1) 27%, rgba(80,62,215,1) 74%, rgba(55,162,227,1) 97%);
+}
+.linearGradient_ver2{
+  background: rgb(68,207,78);
+  background: linear-gradient(238deg, rgba(68,207,78,1) 0%, rgba(204,217,85,1) 27%, rgba(62,215,122,1) 74%, rgba(68,207,78,1) 97%);
+}
+.linearGradient_ver3{
+  background: rgb(207,68,68);
+  background: linear-gradient(278deg, rgba(207,68,68,1) 0%, rgba(217,110,85,1) 27%, rgba(215,62,197,1) 74%, rgba(207,68,68,1) 97%);
+}
+.linearGradient_ver4{
+  background: rgb(74,9,121);
+  background: linear-gradient(315deg, rgba(74,9,121,1) 19%, rgba(172,27,143,1) 57%, rgba(247,53,53,1) 83%);
+}
+/* Text Linear Gradient */
+.text_linearGradient_ver3{
+  background-image: linear-gradient(278deg, rgba(207, 68, 68, 1) 0%, rgba(217, 110, 85, 1) 27%, rgba(215, 62, 197, 1) 74%, rgba(207, 68, 68, 1) 97%) !important;
+  background-clip: text;
+  color: transparent;
+}
