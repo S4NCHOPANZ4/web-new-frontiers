@@ -3,6 +3,9 @@ import { RiStarSFill } from "react-icons/ri";
 import { CiEdit } from "react-icons/ci";
 
 const BrandPage = () => {
+
+  const gridCells = 'xl:w-[390px] lg:w-[350px] md:w-[370px] sm:w-[70vw] w-[90vw] xl:h-[400px] lg:h-[370px] md:h-[350px] sm:h-[70vh] h-[90vh]'
+
   return (
     <div>
       <GeneralNavbar />
@@ -46,7 +49,19 @@ const BrandPage = () => {
       </div>
 
       {/* Showcase Products */}
-        
+      <div className="max-w-[1400px] mx-auto py-5 flex items-center justify-center">
+        <div className="grid md:gap-1 gap-2 grid-cols-1 md:grid-cols-2 lg:grid-cols-3  ">
+            <div className={` bg-white border rounded-md ${gridCells}`}>dslkfg</div>
+            <div className={` bg-white border rounded-md ${gridCells}`}>dslkfg</div>
+            <div className={` bg-white border rounded-md ${gridCells}`}>dslkfg</div>
+            <div className={` bg-white border rounded-md ${gridCells}`}>dslkfg</div>
+            <div className={` bg-white border rounded-md ${gridCells}`}>dslkfg</div>
+            <div className={` bg-white border rounded-md ${gridCells}`}>dslkfg</div>
+            <div className={` bg-white border rounded-md ${gridCells}`}>dslkfg</div>
+            <div className={` bg-white border rounded-md ${gridCells}`}>dslkfg</div>
+        </div>
+
+      </div>
 
     </div>
   )
